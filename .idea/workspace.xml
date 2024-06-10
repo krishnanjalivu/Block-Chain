@@ -5,16 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a830bb8-42c5-4b53-8e71-5814c805c84f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Block chain.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Block.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NoobChain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/noobchain/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/noobchain/TransactionInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/noobchain/TransactionOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/noobchain/Wallet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/gson_2_6_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_6_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Block.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/noobchain/Block.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NoobChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/noobchain/NoobChain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/noobchain/StringUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,15 +44,16 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "F:/gson-2.6.2.jar",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "F:/bcprov-jdk18on-1.78.1.jar",
     "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RunManager">
     <configuration name="NoobChain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NoobChain" />
+      <option name="MAIN_CLASS_NAME" value="noobchain.NoobChain" />
       <module name="Block chain" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -79,9 +80,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/NoobChain.java</url>
+          <url>file://$PROJECT_DIR$/src/noobchain/NoobChain.java</url>
           <line>3</line>
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/noobchain/Block.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
